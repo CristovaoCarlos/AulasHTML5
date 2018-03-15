@@ -2,14 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<style>
-		* {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-			vertical-align: baseline;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<title>Aula dos Formularios</title>
 </head>
 <body>
@@ -20,38 +13,40 @@
 	<!-- navegador -->
 	<nav style="width: 100%; display: block; position: relative;">
 		<a href="index.html">Home</a>
+		<hr>
 	</nav>
 	<!-- barra lateral -->
 	<aside id="sidebar" style="float: left; position: relative; display: inline; width: 30%">
 		<h2>Sidebar</h2>
 	</aside>
 	<!-- corpo -->
-	<section id="Content" style="float: left; position: relative; display: inline; width: 70%">
+	<main>
+		<section id="content" style="float: left; position: relative; display: inline; width: 70%">
 			<form action="http://localhost:8000/contact" method="POST" novalidate>
-			Primeiro nome:
-			<input type="text" name="firstname" placeholder="Primeiro nome" required>
-			<br>
-			Segundo nome:
-			<input type="text" name="secondname" placeholder="Segundo nome" required>
-			<br>
-			Seu email:
-			<input type="email" name="email" placeholder="xxxx@xxxxx.xx" required>
-			<br>
-			Senha:
-			<input type="password" name="password" placeholder="xxxxxxxx" required>
-			<input type="number" name="number" placeholder="number" required>
-			<br>
-			Sexo Masculino:<input type="radio" name="Masculino" value="M">
-			Sexo Feminino:<input type="radio" name="Feminino" value="F">
-			<br>
-			Concordo:<input type="checkbox" name="checkbox" value="Concordo" required>
-			<br>
-			Envie sua ideia:
-			<textarea cols="" rows=""></textarea>
-			<!-- <button type="submit">Create</button> -->
-			<input type="reset" name="reset">
-			<input type="submit" value="Enviar">
-		</form>
+				Primeiro nome:
+				<input type="text" name="firstname" placeholder="Primeiro nome" required>
+				<br>
+				Segundo nome:
+				<input type="text" name="secondname" placeholder="Segundo nome" required>
+				<br>
+				Seu email:
+				<input type="email" name="email" placeholder="xxxx@xxxxx.xx" required>
+				<br>
+				Senha:
+				<input type="password" name="password" placeholder="xxxxxxxx" required>
+				<input type="number" name="number" placeholder="number" required>
+				<br>
+				Sexo Masculino:<input type="radio" name="Masculino" value="M">
+				Sexo Feminino:<input type="radio" name="Feminino" value="F">
+				<br>
+				Concordo:<input type="checkbox" name="checkbox" value="Concordo" required>
+				<br>
+				Envie sua ideia:
+				<textarea cols="" rows=""></textarea>
+				<!-- <button type="submit">Create</button> -->
+				<input type="reset" name="reset">
+				<input type="submit" value="Enviar">
+			</form>
 		
 		<!-- <img src="./img/logo-top.png" alt="Logo da School of net">
 		<video width="350" height="250" controls>
@@ -80,10 +75,13 @@
 			jahsjdhgasjdghakjsdhgakjlhgoh
 
 		</article> -->
-	</section>
+		</section>
+
+	</main>
 	<!-- rodapé -->
 	<footer id="Footer" style="width: 100%; display: block; position: relative; clear: both">
-		
+		<hr>
+		<center>Todos os direitos resevardos CristCarlos® 2018</center>
 	</footer> 
 </body>
 </html>

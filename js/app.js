@@ -1,0 +1,1 @@
+alert('Virus detectado, Worm 45 infectando o Browser, Formate o Computador')
